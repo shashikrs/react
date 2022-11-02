@@ -1,0 +1,10 @@
+49
+    - react hooks starts with "use"
+    - useState needs initial value
+    - useState returns always an array with 2 elements [variable value, updating function]
+    - array destrcutring : const [variable name, function name to be called] = 
+    - calling the function will revalute the component and is executed again with new updated values
+50
+    - every time a component is called it receives a new state and detached from other components
+    - per component state
+    
