@@ -28,3 +28,5 @@
 
 57
     - event.preventDefault() will not submit the form
+59 
+    - lifting state up : means moving data from child to parent and to the other connected components
