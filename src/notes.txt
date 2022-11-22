@@ -30,3 +30,11 @@
     - event.preventDefault() will not submit the form
 59 
     - lifting state up : means moving data from child to parent and to the other connected components
+64
+    - while updating a state based on previous state, we need to use a function instead of array destructuring to set the update the state
+    example:     
+    setExpenses((prevExpenses) => {
+      return [expense, ...prevExpenses];
+    });
+65
+   - we need key attribute in our jsx so react can differentiate between items and it must be unique or else the array contents values will be overwritten

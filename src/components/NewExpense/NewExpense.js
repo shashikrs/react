@@ -8,7 +8,9 @@ const NewExpense = (props) => {
       ...enteredExpenseData,
     };
 
+    console.log("in new expense");
     console.log(expenseData);
+
     props.onAddExpense(expenseData);
   };
 

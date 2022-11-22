@@ -3,12 +3,12 @@ import React, { useState } from "react";
 import "./ExpensesFilter.css";
 
 const ExpensesFilter = (props) => {
-  const [year, selectedYear] = useState("");
+  //const [year, selectedYear] = useState();
 
   const yearChangeHandler = (event) => {
-    selectedYear(event.target.value);
-    console.log(year);
-    props.onYearSelect(year);
+    //selectedYear(event.target.value);
+    console.log(event.target.value);
+    props.onYearSelect(event.target.value);
   };
 
   return (
